@@ -18,7 +18,7 @@ env:
 jobs:
   build:
     #runs-on: ubuntu-latest
-    runs-on: [ self-hosted, "${{ matrix.archconfig }}", gcc, lite ]
+    runs-on: [ self-hosted, "${{ matrix.archconfig }}" ]
     
     permissions:
       contents: read
